@@ -1,0 +1,201 @@
+body {
+    padding: 0px;
+    background-color: black;
+}
+
+/* for navigation bar */
+#navigation {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+#logo {
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    position: absolute;
+}
+
+#website_name {
+    display: inline-block;
+    font-family: Brush Script MT;
+    font-weight: 59px;
+    margin-left: 85px;
+    margin-top: 40px;
+    position: absolute;
+}
+h1{
+    color: rgb(255, 81, 1);
+}
+h1:hover {
+    color: rgb(255, 81, 1);
+    font-size: 30px;
+}
+
+/* for nav links */
+h2 {
+    position: absolute;
+    margin-left: 40%;
+    padding: 30px;
+    display: inline-block;
+    color: rgb(255, 81, 1);
+    text-align: right;
+}
+
+#nav {
+    display: inline-block;
+}
+#home:hover{
+    
+}
+#works{
+    margin-left: 50%;
+}
+#blogss{
+    margin-left: 60%;
+}
+#contact{
+    margin-left: 70%;
+}
+#about{
+    margin-left: 80%;
+}
+h2:hover {
+    color: rgb(255, 81, 1);
+    font-size: 23px;
+}
+
+/* image section */
+#first_image{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    display: inline-block;
+}
+#contact_named{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    background-color: black;
+     text-align: center;
+}
+#contact_para{
+    font-size: 25px;
+    color: rgb(255, 81, 1);
+    display: inline-block;
+}
+hr{
+    width: 400px;
+    border: 2px solid rgb(255, 81, 1);
+}
+/* contact section */
+
+#contact_section {
+    background-color: black;
+    width: 100%;
+    height: 440px;
+    position: relative;
+    display: inline-block;
+}
+
+#share {
+    font-size: x-large;
+    font-weight: bold;
+    color:rgb(255, 81, 1);
+    margin-left: 19%;
+    display: inline-block;
+
+}
+
+#share_text_field {
+    margin-left: 10%;
+    display: inline-block;
+    background-color: black;
+    color: rgb(255, 81, 1);
+    border-color: rgb(255, 81, 1);
+}
+
+#submit {
+    width: 90px;
+    height: 20px;
+    background-color: rgb(255, 81, 1);
+    border-radius: 10px;
+    color: black;
+    border: none;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 200px;
+}
+#submit:hover{
+    width: 93px;
+    height: 21px;
+}
+#social {
+    font-size: x-large;
+    font-weight: bold;
+    color:rgb(255, 81, 1);
+    margin-left: 35%;
+    display: inline-block;
+    position: absolute;
+}
+
+.logo {
+    margin-left: 28%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+}
+.logo:hover{
+    width: 53px;
+    height: 53px;
+}
+
+#youtube {
+    margin-top: 60px;
+}
+
+#github {
+    margin-top: 120px;
+}
+
+#instagram {
+    margin-top: 180px;
+}
+
+#codepen {
+    margin-top: 240px;
+}
+
+#copyright {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 120px;
+}
+
+#copyright_web_name {
+    font-family: Brush Script MT;
+    font-size: x-large;
+    display: inline-block;
+    position: absolute;
+    color:rgb(255, 81, 1);
+    margin-left: 46%;
+    margin-top: 120px;
+
+}
+
+#number {
+    font-size: x-large;
+    display: inline-block;
+    position: absolute;
+    color:rgb(255, 81, 1);
+    margin-left: 55%;
+    margin-top: 120px;
+    font-weight: normal;
+}
